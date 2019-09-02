@@ -29,7 +29,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-cube"></i>
                     <span>Pricing Package</span></a>
             </li>
 
@@ -38,7 +38,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-calendar"></i>
                     <span>Availability</span></a>
             </li>
 
@@ -47,7 +47,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-camera"></i>
                     <span>Bookings</span></a>
             </li>
 
@@ -56,7 +56,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-briefcase"></i>
                     <span>Portfolio</span></a>
             </li>
 
@@ -65,7 +65,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-images"></i>
                     <span>Albums</span></a>
             </li>
             <div class="mb-4"></div>
@@ -73,7 +73,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-shopping-bag"></i>
                     <span>Subscriptions</span></a>
             </li>
             <div class="mb-4"></div>
@@ -81,7 +81,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-credit-card"></i>
                     <span>Payments</span></a>
             </li>
             <div class="mb-4"></div>
@@ -89,7 +89,7 @@
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
+                    <i class="fas fa-fw fa-cog"></i>
                     <span>Settings</span></a>
             </li>
 
