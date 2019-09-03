@@ -238,7 +238,17 @@ methods: {
     cursor:pointer;
 }
 
+.ds-dom.ds-today-dom{
+    
+background-color:#ffb603 !important;
 
+}
+
+.ds-week-header-day.ds-week-header-today{
+    
+background-color:#ffb603 !important;
+color: #fff !important;
+}
 
 @media only screen and (max-width: 414px) {
     .ds-week-header-day{
