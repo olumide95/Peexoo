@@ -29,11 +29,11 @@
             </div>
 
             <div class="col-md-8">
-                <div class="float-right">
+                <div class="ml-5 ">
                     <!-- Search -->
-                    <form class="d-none d-sm-inline-block form-inline ml-5">
+                    <form class="d-sm-inline-block form-inline " style="width:77%">
                         <div class="input-group">
-                            <input class="form-control py-2 border-right-0 border" type="search" value="search" id="example-search-input" />
+                            <input class="form-control py-2 border-right-0 border " type="search" value="search" id="example-search-input" />
                             <span class="input-group-append">
                         <div class="input-group-text bg-white">
                           <i class="fa fa-search"></i>
