@@ -105,5 +105,13 @@ export default {
 
     background-color: #fff !important;
 
+
+}
+
+@media only screen and (max-width: 414px) {
+    .btn.btn-schedule{
+           float: left !important;
+           margin-top:2%
+   }
 }
 </style>
