@@ -37,7 +37,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link selected" href="#">
                     <i class="fas fa-fw fa-calendar"></i>
                     <span>Availability</span></a>
             </li>
@@ -160,6 +160,9 @@ export default {
         .list-hover-slide a.is-current:before,
         .list-hover-slide a.nav-link:hover:before {
             right: 0;
+        }
+        .list-hover-slide a.nav-link.selected{
+             right: 0;
         }
         
         .calender-toggle {
