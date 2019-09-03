@@ -37,16 +37,60 @@ export default {
        defaultEvents: [
       {
        data: {
-          title: 'New Year\'s Day hgjrfb yufb wfh f weufvuwef n wfg wuf jf wjehf wu ',
+          title: "Mrs. Steven duaghtes's photography",
           color: '#2196F3',
-          calendar: 'US Holidays'
         },
         schedule: {
           month: [Month.SEPTEMBER],
-          dayOfMonth: [1]
+          dayOfMonth: [2]
         }
       
-    }]
+    },
+     {
+       data: {
+          title: "Mrs. Peter duaghtes's photography",
+          color: '#2196F3',
+        },
+        schedule: {
+          month: [Month.SEPTEMBER],
+          dayOfMonth: [11]
+        }
+      
+    },
+    {
+       data: {
+          title: "Mrs. Peter duaghtes's photography",
+          color: '#2196F3',
+        },
+        schedule: {
+          month: [Month.SEPTEMBER],
+          dayOfMonth: [12]
+        }
+      
+    },
+    {
+       data: {
+          title: "Mrs. Peter duaghtes's photography",
+          color: '#2196F3',
+        },
+        schedule: {
+          month: [Month.SEPTEMBER],
+          dayOfMonth: [13]
+        }
+      
+    },
+    {
+       data: {
+          title: "Mrs. Steven duaghtes's photography",
+          color: '#2196F3',
+        },
+        schedule: {
+          month: [Month.SEPTEMBER],
+          dayOfMonth: [27]
+        }
+      
+    }
+    ]
     
   }
 },
@@ -148,6 +192,7 @@ methods: {
 
       
        position:inherit !important;
+           white-space: initial !important;
    }
 
    .v-navigation-drawer{
@@ -180,9 +225,6 @@ methods: {
         padding-top: 5% !important;
         text-align: center;
    }
-   .ds-day:has(> .ds-calendar-event-menu) { 
-        background-color:#ffb603 !important;    
-    }
     
 .ds-app-calendar-toolbar{
     display:none;
