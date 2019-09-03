@@ -29,11 +29,11 @@
             </div>
 
             <div class="col-md-8">
-                <div class="ml-5 ">
+                <div class="">
                     <!-- Search -->
                     <form class="d-sm-inline-block form-inline " style="width:77%">
                         <div class="input-group">
-                            <input class="form-control py-2 border-right-0 border " type="search" value="search" id="example-search-input" />
+                            <input class="form-control py-2 border-right-0 border "  type="search" value="search" id="example-search-input" />
                             <span class="input-group-append">
                         <div class="input-group-text bg-white">
                           <i class="fa fa-search"></i>
@@ -42,7 +42,7 @@
                         </div>
                     </form>
 
-                    <button href="#" class="btn btn-schedule btn-md" @click="addSchedule">
+                    <button href="#" class="btn btn-schedule btn-md float-right" @click="addSchedule">
                         <span class="icon">
                       <i class="fas fa-plus"></i>
                     </span>
