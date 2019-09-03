@@ -161,8 +161,9 @@ export default {
         .list-hover-slide a.nav-link:hover:before {
             right: 0;
         }
-        .list-hover-slide a.nav-link.selected{
+        .list-hover-slide a.nav-link.selected:before, .list-hover-slide a.nav-link.selected, .list-hover-slide a.nav-link.selected > i{
              right: 0;
+             color: #f6c23e !important;
         }
         
         .calender-toggle {
