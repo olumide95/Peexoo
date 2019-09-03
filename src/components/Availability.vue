@@ -16,13 +16,13 @@
 
             <!-- Content Row -->
             <div class="row">
-              <div class="col-md-4 calender-toggle">
-                <span class="mr-2" @click="calenderView">
+              <div class="col-md-4 ">
+                <span class="mr-2 calender-toggle" @click="calenderView">
                   <i class="fas fa-calendar fa-sm fa-fw mr-2 "></i>
                   Calender View
                 </span>
 
-                  <span class="mr-2" @click="listView">
+                  <span class="mr-2 calender-toggle" @click="listView">
                   <i class="fas fa-list fa-sm fa-fw mr-2"></i>
                   List View
                 </span>
