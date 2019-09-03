@@ -161,9 +161,11 @@ methods: {
        border-radius: 2px;
        width: 146px;
        height: 50px;
-         padding: 13px !important;
-           text-align: center;
+       padding: 13px !important;
+       text-align: center;
    }
+
+
 
    .ds-day{
 
@@ -187,4 +189,16 @@ methods: {
     cursor:pointer;
 }
 
+
+
+@media only screen and (max-width: 414px) {
+    .ds-week-header-day{
+       border: 1px solid #e0e0e0 !important;
+       border-radius: 2px;
+       width: auto;
+       height: auto;
+       padding: 0px !important;
+       text-align: center;
+   }
+}
 </style>
