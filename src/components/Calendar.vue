@@ -76,6 +76,7 @@ export default {
 
 
     window.app = this.$refs.app;
+    this.setSummary();
     this.loadState();
     
   },
@@ -84,16 +85,22 @@ methods: {
 
     getPrev(){
         this.$refs.app.prev();
+        this.setSummary();
     },
     getNext(){
-        this.$refs.app.next()
+        this.$refs.app.next();
+        this.setSummary();
     },
     setToday(){
         this.$refs.app.setToday();
+        this.setSummary();
+    },
+    setSummary(){
+        this.summary = this.$refs.app.summary;
     },
     loadState()
     {
-      this.summary = this.$refs.app.summary;
+      
       let state = {};
       try
       {
