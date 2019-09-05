@@ -260,4 +260,7 @@ color: #fff !important;
        text-align: center;
    }
 }
+aside{
+  display:none !important;
+}
 </style>
